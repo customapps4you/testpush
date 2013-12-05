@@ -15,6 +15,6 @@
         Ricardo Tominaga
     </author>
 	
-	<gap:plugin name="GenericPush" />
+	<gap:plugin name="com.phonegap.plugins.PushPlugin"/>
 	
 </widget>
