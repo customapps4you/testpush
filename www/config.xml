@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        version   = "1.0.0"
+        version   = "1.0.1"
 	    id = "br.com.customapps4you.testpush"
         versionCode="1" 
 	>
@@ -15,6 +15,6 @@
         Ricardo Tominaga
     </author>
 	
-	<gap:plugin name="com.phonegap.plugins.pushplugin" />
+	<gap:plugin name="GenericPush" />
 	
 </widget>
