@@ -1,13 +1,29 @@
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
 
-        <title>Hello World</title>
-    </head>
-    <body>
-        <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+		<title>Hello World</title>
+	</head>
+	<body>
+
+		<div class="app">
+			<h1>Apache Cordova</h1>
+			<div id="deviceready" class="blink">
+				<p class="event listening">Connecting to Device</p>
+				<p class="event received">Device is Ready</p>
+			</div>
+			<input style="width: 100%" id="general" />
+			<input type="button" value="Register" id="registerButton"/>
+			<input type="button" value="Unregister" id="unregisterButton"/>
+		</div>
+
+		<script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
 		<script type="text/javascript" charset="utf-8" src="js/pushplugin.js"></script>
-    </body>
+		<script type="text/javascript" charset="utf-8" src="js/index.js"></script>
+		<script>
+			app.initialize();
+		</script>
+	</body>
 </html>
